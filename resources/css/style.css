@@ -35,25 +35,34 @@ nav span {
   display: flex;
 }
 
-.column {
-  display: flex;
-  justify-content: center;
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 
-.column.large {
+
+.column .large {
   width: 630px;
+  display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+
 }
 
-.column.medium {
+.cover {
+  width: 100%;
+}
+
+.column .large .story {
   width: 300px;
+  height: 300px;
 }
 
-.column.small {
-  width: 240px;
+.story {
+  border: 1px solid black;
 }
-
 
 .phish {
   background-image: url("../../resources/images/img-story-main-phish.png");
@@ -72,26 +81,8 @@ nav span {
   padding: 0 30px;
 }
 
-.story.cover {
-  width: 100%;
-}
-
-.column.large .story {
-  width: 40%;
-}
-
-.small ul {
-  list-style-type: none;
-}
 
 
-
-
-p {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-}
 
 
 
@@ -124,4 +115,18 @@ p {
 .cat {
     background-image: url("../../resources/images/img-cat-ceo.png");
 
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240px;
+  flex-direction: column;
+}
+
+
+.small ul {
+  list-style-type: none;
 }
