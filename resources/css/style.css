@@ -33,6 +33,12 @@ nav span {
 
 .main {
   display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
 }
 
 p {
@@ -82,10 +88,6 @@ p {
 }
 
 
-
-
-
-
 .image {
   height: 300px;
   width: 300px;
@@ -104,9 +106,7 @@ p {
 
 .earth {
   background-image: url("../../resources/images/img-earth-fall.png");
-
 }
-
 
 .camera {
   background-image: url("../../resources/images/img-camera.png");
@@ -114,19 +114,40 @@ p {
 
 .cat {
     background-image: url("../../resources/images/img-cat-ceo.png");
-
 }
 
 .column .medium {
   width: 300px;
+  align-items: center;
 }
+
+
+
 
 .column .small {
+  display: block;
   width: 240px;
   flex-direction: column;
+  text-align: center;
 }
 
+.bites {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 11px 20px;
+}
 
-.small ul {
+.bite-list {
+  display: block;
   list-style-type: none;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 50px;
+  color: DimGray;
+  justify-content: center;
+
+}
+
+.bite-list p {
+  border-bottom: 1px solid black;
 }
