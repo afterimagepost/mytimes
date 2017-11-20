@@ -1,0 +1,127 @@
+.header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  justify-content: space-between;
+}
+
+.logo {
+  color: MediumAquamarine;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 20px;
+
+}
+
+.logo p {
+  padding-left: 10px;
+}
+
+nav span {
+  text-decoration: underline;
+  display: inline-flex;
+  padding: 10px;
+}
+
+/*main*/
+
+.main {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+}
+
+
+.column.large {
+  width: 630px;
+  flex-wrap: wrap;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+
+.phish {
+  background-image: url("../../resources/images/img-story-main-phish.png");
+  display: flex;
+  height: 300px;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.phish p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+  padding: 0 30px;
+}
+
+.story.cover {
+  width: 100%;
+}
+
+.column.large .story {
+  width: 40%;
+}
+
+.small ul {
+  list-style-type: none;
+}
+
+
+
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+
+
+.image {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.image p {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+
+}
+
+.earth {
+  background-image: url("../../resources/images/img-earth-fall.png");
+
+}
+
+
+.camera {
+  background-image: url("../../resources/images/img-camera.png");
+}
+
+.cat {
+    background-image: url("../../resources/images/img-cat-ceo.png");
+
+}
