@@ -35,10 +35,12 @@ nav span {
   display: flex;
   justify-content: center;
   justify-content: space-around;
+  margin: 50px;
 }
 
 .column {
   display: flex;
+
 }
 
 p {
@@ -47,14 +49,11 @@ p {
   color: black;
 }
 
-
-
 .column .large {
   width: 630px;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   flex-direction: row;
-
 }
 
 .cover {
@@ -116,9 +115,13 @@ p {
     background-image: url("../../resources/images/img-cat-ceo.png");
 }
 
+
+
+
 .column .medium {
+  display: block;
   width: 300px;
-  align-items: center;
+  justify-content: center;
 }
 
 
@@ -131,23 +134,26 @@ p {
   text-align: center;
 }
 
-.bites {
+.news-bites {
+  font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
-  padding: 11px 20px;
+
 }
 
-.bite-list {
+span.bite {
   display: block;
   list-style-type: none;
   background-color: WhiteSmoke;
   font-family: Verdana;
-  font-size: 50px;
+  font-size: 12px;
   color: DimGray;
-  justify-content: center;
+  padding: 11px;
 
 }
-
-.bite-list p {
+.bite {
+  padding-top: 11px;
+  align-content: center;
   border-bottom: 1px solid black;
+
 }
