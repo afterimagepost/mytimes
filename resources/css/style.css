@@ -57,7 +57,10 @@ p {
   flex-wrap: wrap;
 }
 
-.story {
+.box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 
 }
 
@@ -68,8 +71,7 @@ p {
 .column .large .story {
   width: 300px;
   height: 300px;
-  padding: 20px 0px;
-  justify-content: space-around;
+  align-content: center;
 
 
 }
