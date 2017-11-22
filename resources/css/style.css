@@ -40,6 +40,7 @@ nav span {
 
 .column {
   display: flex;
+  justify-content: space-between;
 
 }
 
@@ -54,6 +55,9 @@ p {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.story {
 
 }
 
@@ -64,6 +68,10 @@ p {
 .column .large .story {
   width: 300px;
   height: 300px;
+  padding: 20px 0px;
+  justify-content: space-around;
+
+
 }
 
 
@@ -103,14 +111,17 @@ p {
 
 .earth {
   background-image: url("../../resources/images/img-earth-fall.png");
+  background-repeat: no-repeat;
 }
 
 .camera {
   background-image: url("../../resources/images/img-camera.png");
+  background-repeat: no-repeat;
 }
 
 .cat {
     background-image: url("../../resources/images/img-cat-ceo.png");
+    background-repeat: no-repeat;
 }
 
 
@@ -120,9 +131,12 @@ p {
   display: block;
   width: 300px;
   justify-content: center;
+
 }
 
-
+.column .medium .story {
+  padding: 10px 0px;
+}
 
 
 .column .small {
@@ -167,7 +181,7 @@ span.bite {
   margin: auto;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+
 
 
 }
